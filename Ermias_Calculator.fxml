@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="400.0" style="-fx-background-color: lightgrey; -fx-border-width: 1; -fx-border-style: solid; -fx-border-color: lightblue;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ermiasAntigegn.ViewFXMLController">
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+   <children>
+      <TextField alignment="CENTER_RIGHT" prefHeight="52.0" prefWidth="349.0" text="0">
+         <VBox.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="15.0" />
+         </VBox.margin>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </TextField>
+      <HBox prefHeight="48.0" prefWidth="264.0">
+         <VBox.margin>
+            <Insets bottom="5.0" left="5.0" right="20.0" top="15.0" />
+         </VBox.margin>
+         <children>
+            <Button id="clear" fx:id="clear" mnemonicParsing="false" onAction="#clearButtonHandler" prefWidth="70.0" text="clr" textFill="#0970ef">
+               <HBox.margin>
+                  <Insets right="15.0" />
+               </HBox.margin>
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Button>
+            <Button id="del" fx:id="del" mnemonicParsing="false" onAction="#delButtonHandler" prefWidth="70.0" text="DEL" textFill="#0970ef">
+               <HBox.margin>
+                  <Insets right="15.0" />
+               </HBox.margin>
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Button>
+            <Button id="modul" fx:id="modul" mnemonicParsing="false" onAction="#modulButtonHandler" prefWidth="70.0" text="\%" textFill="#0970ef">
+               <HBox.margin>
+                  <Insets right="15.0" />
+               </HBox.margin>
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Button>
+            <Button id="divide" fx:id="divide" mnemonicParsing="false" onAction="#divideButtonHandler" prefWidth="70.0" style="-fx-background-color: pink;" text="/" textFill="#0970ef">
+               <HBox.margin>
+                  <Insets right="15.0" />
+               </HBox.margin>
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Button>
+         </children>
+      </HBox>
+      <HBox prefHeight="48.0" prefWidth="360.0">
+         <children>
+            <Button id="btn7" fx:id="btn7" mnemonicParsing="false" onAction="#buttonSevenHandler" prefWidth="70.0" text="7" textFill="#0374ff">
+               <HBox.margin>
+                  <Insets right="15.0" />
+               </HBox.margin>
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Button>
+            <Button id="btn8" fx:id="btn8" mnemonicParsing="false" onAction="#buttonEightHandler" prefWidth="70.0" text="8" textFill="#0374ff">
+               <HBox.margin>
+                  <Insets right="15.0" />
+               </HBox.margin>
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Button>
+            <Button id="btn9" fx:id="btn9" mnemonicParsing="false" onAction="#buttonNineHandler" prefWidth="70.0" text="9" textFill="#0374ff">
+               <HBox.margin>
+                  <Insets right="15.0" />
+               </HBox.margin>
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Button>
+            <Button id="multiply" fx:id="multiply" mnemonicParsing="false" onAction="#multiplyButtonHandler" prefWidth="70.0" style="-fx-background-color: pink;" text="*" textFill="#0374ff">
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <HBox.margin>
+                  <Insets right="15.0" />
+               </HBox.margin>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Button>
+         </children>
+         <VBox.margin>
+            <Insets bottom="5.0" left="5.0" right="20.0" top="15.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox prefHeight="48.0" prefWidth="360.0">
+         <children>
+            <Button id="btn4" fx:id="btn4" mnemonicParsing="false" onAction="#buttonFourHandler" prefWidth="70.0" text="4" textFill="#055bfc">
+               <HBox.margin>
+                  <Insets right="15.0" />
+               </HBox.margin>
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Button>
+            <Button id="btn5" fx:id="btn5" mnemonicParsing="false" onAction="#buttonFiveHandler" prefWidth="70.0" text="5" textFill="#055bfc">
+               <HBox.margin>
+                  <Insets right="15.0" />
+               </HBox.margin>
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Button>
+            <Button id="btn6" fx:id="btn6" mnemonicParsing="false" onAction="#buttonSixHandler" prefWidth="70.0" text="6" textFill="#055bfc">
+               <HBox.margin>
+                  <Insets right="15.0" />
+               </HBox.margin>
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Button>
+            <Button id="mines" fx:id="mines" mnemonicParsing="false" onAction="#minesButtonHandler" prefWidth="70.0" style="-fx-background-color: pink;" text="-" textFill="#055bfc">
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <HBox.margin>
+                  <Insets right="15.0" />
+               </HBox.margin>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Button>
+         </children>
+         <VBox.margin>
+            <Insets bottom="5.0" left="5.0" right="20.0" top="15.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox prefHeight="48.0" prefWidth="360.0">
+         <children>
+            <Button id="btn1" fx:id="btn1" mnemonicParsing="false" onAction="#buttonOneHandler" prefWidth="70.0" text="1" textFill="#085aff">
+               <HBox.margin>
+                  <Insets right="15.0" />
+               </HBox.margin>
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Button>
+            <Button id="btn2" fx:id="btn2" mnemonicParsing="false" onAction="#buttonTwoHandler" prefWidth="70.0" text="2" textFill="#085aff">
+               <HBox.margin>
+                  <Insets right="15.0" />
+               </HBox.margin>
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Button>
+<Button id="btn3" fx:id="btn3" mnemonicParsing="false" onAction="#buttonThreeHandler" prefWidth="70.0" text="3" textFill="#085aff">
+               <HBox.margin>
+                  <Insets right="15.0" />
+               </HBox.margin>
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Button>
+            <Button id="plus" fx:id="plus" mnemonicParsing="false" onAction="#plusButtonHandler" prefWidth="70.0" style="-fx-background-color: pink;" text="+" textFill="#085aff">
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <HBox.margin>
+                  <Insets right="15.0" />
+               </HBox.margin>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Button>
+         </children>
+         <VBox.margin>
+            <Insets bottom="5.0" left="5.0" right="20.0" top="15.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox prefHeight="48.0" prefWidth="360.0">
+         <children>
+            <Button id="dot" fx:id="dot" mnemonicParsing="false" onAction="#dotButtonHandler" prefWidth="70.0" text=".">
+               <HBox.margin>
+                  <Insets right="15.0" />
+               </HBox.margin>
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Button>
+            <Button id="btn0" fx:id="btn0" mnemonicParsing="false" onAction="#buttonZeroHandler" prefWidth="70.0" text="0">
+               <HBox.margin>
+                  <Insets right="15.0" />
+               </HBox.margin>
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Button>
+            <Button id="equal" fx:id="equal" mnemonicParsing="false" onAction="#equalButtonHandler" prefWidth="150.0" style="-fx-background-color: lightblue;" text="=">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        
+                     </light>
+                  </Lighting>
+               </effect>
+            </Button>
+         </children>
+         <VBox.margin>
+            <Insets bottom="5.0" left="5.0" right="20.0" top="15.0" />
+         </VBox.margin>
+      </HBox>
+   </children>
+</VBox>
