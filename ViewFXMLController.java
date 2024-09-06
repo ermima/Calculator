@@ -57,7 +57,7 @@ public class ViewFXMLController implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle rb) {
-        // Initialization logic if needed
+        
     }    
 
     @FXML
@@ -77,7 +77,7 @@ public class ViewFXMLController implements Initializable {
 
     @FXML
     private void modulButtonHandler(ActionEvent event) {
-        // Implement modulus logic here
+        
     }
 
     @FXML
@@ -175,7 +175,7 @@ public class ViewFXMLController implements Initializable {
 
     @FXML
     private void equalButtonHandler(ActionEvent event) {
-        // Implement equal logic here
+        
     }
 
     private void appendToDisplay(String value) {
